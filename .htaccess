@@ -1,0 +1,42 @@
+Options -Indexes
+Options +FollowSymLinks
+Options -MultiViews
+DirectoryIndex index.php
+RewriteEngine on
+
+
+RewriteRule ^home-page/?$ homePage.php [NC]
+#RewriteRule ^shop-page/?$ shop.php [NC]
+#RewriteRule ^cart-page/?$ cart.php [NC]
+#	RewriteRule ^check-out-page/?$ checkout.php [NC]
+#	RewriteRule ^product-category-page/?$ category_page.php [NC]
+#	RewriteRule ^products-details-page/?$ product-details.php [NC]
+#	RewriteRule ^xanta-login-page/?$ userLoginPage.php [NC]
+#	RewriteRule ^xanta-registration-page/?$ userRegForm.php [NC]
+#	RewriteRule ^students-class-result-list/?$ class-result-list.php [NC]
+#	RewriteRule ^edit-students-data-page/?$ edit-students.php [NC]
+#
+#RewriteRule ^check-students-result-page/?$ check-result.php [NC]
+#	RewriteRule ^view-students-result-page/?$ result-view.php [NC]
+#	RewriteRule ^view-students-result-pageB/?$ result-viewB.php [NC]
+#RewriteRule ^student-class-main-page/?$ class-main.php [NC]
+#	RewriteRule ^add-new-class-page/?$ addclass.php [NC]
+#	RewriteRule ^manage-class-information-page/?$ manage-class.php [NC]
+#
+#RewriteRule ^subject-main-page/?$ subjects.php [NC]
+# 	RewriteRule ^add-new-subjects-page/?$ add-subjects.php [NC]
+#
+#RewriteRule ^school-academic-year-main-page/?$ academic-year.php [NC]
+#
+#RewriteRule ^teacher-main-page/?$ teachers-box.php [NC]
+#    RewriteRule ^teacher-management-page/?$ teacher-setting.php [NC]
+#	RewriteRule ^manage-teachers-uploads/?$ teacher-upload-management.php [NC]
+	
+
+
+
+#ErrorDocument 404 /404.php
+#ErrorDocument 500 /index.php/500/
+#RewriteRule ^(.*)$ admin_login.php?/$1 [NC,L,QSA]
+#RewriteRule ^(.*)$ admin_login.php/$1 [NC,L,QSA]
+#RewriteRule ^(.*)$ admin_login.php/$1 [NC,L,QSA]
